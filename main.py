@@ -1,5 +1,12 @@
 #REMOVE PASS AND FIX THIS FUNCTION
 def palindrome(word):
-    pass
+    word = word.strip()
+    word = word.upper()
+    reverse_word = word[::-1]
+    if reverse_word == word:
+        return True
+    else:
+        return False
 
 #YOUR CODE GOES HERE
+print(palindrome(input()))
