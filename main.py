@@ -2,6 +2,7 @@
 def palindrome(word):
     word = word.strip()
     word = word.upper()
+    
     if word.isalpha() == True:
         reverse_word = word[::-1]
         if reverse_word == word:
