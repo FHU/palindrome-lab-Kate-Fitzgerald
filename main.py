@@ -2,12 +2,9 @@
 def palindrome(word):
     word = word.strip()
     word = word.upper()
-    word = word.split()
-    for i in word:
-        newword = str(word).strip
-    newword = "".join(word)
+    words = word.split()
+    newword = "".join(words)
 
-    
     if newword.isalpha() == True:
         reverse_word = newword[::-1]
         if reverse_word == newword:
