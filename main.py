@@ -15,4 +15,5 @@ def palindrome(word):
         return False
 
 #YOUR CODE GOES HERE
-print(palindrome(input()))
+user = input()
+print(palindrome(user))
