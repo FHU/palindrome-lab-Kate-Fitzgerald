@@ -17,3 +17,5 @@ def palindrome(word):
 #YOUR CODE GOES HERE
 #user = input()
 #print(palindrome(user))
+#comment
+    
